@@ -1,0 +1,10 @@
+
+@use "helpers/header" as *;
+@use "helpers/footer" as *;
+@use "helpers/middle" as *;
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+    height: 100vh;
+}

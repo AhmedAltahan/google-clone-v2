@@ -1,0 +1,40 @@
+
+$hover-color-bg : rgba(220, 220, 220, 0.497);
+
+header {
+    padding: 6px;
+    height: 48px;
+    ul {
+        li {
+            &:hover {
+                text-decoration: underline ;
+            }
+            a {
+                font-size: 13px !important;
+                
+                
+
+                &.custom {
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px;
+
+                    &:hover {
+                        background-color:$hover-color-bg;
+                        border-radius: 50%;
+                    }
+                }
+                
+                svg {
+                    width: 24px;
+                    height:24px;  
+                }
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                }
+            }
+        }
+    }
+}

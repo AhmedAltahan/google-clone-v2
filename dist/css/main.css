@@ -1,0 +1,54 @@
+header {
+  padding: 6px;
+  height: 48px;
+}
+header ul li:hover {
+  text-decoration: underline;
+}
+header ul li a {
+  font-size: 13px !important;
+}
+header ul li a.custom {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+}
+header ul li a.custom:hover {
+  background-color: rgba(220, 220, 220, 0.497);
+  border-radius: 50%;
+}
+header ul li a svg {
+  width: 24px;
+  height: 24px;
+}
+header ul li a img {
+  width: 32px;
+  height: 32px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  color: #70757A;
+  font-size: 14px !important;
+}
+footer .right a {
+  padding: 5px;
+}
+footer a {
+  color: #70757A;
+  text-decoration: none;
+  padding: 10px;
+}
+footer a:hover {
+  color: #70757A;
+  text-decoration: underline;
+}
+
+section {
+  height: calc(100% - 48px);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */
